@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
+}
+
+.card {
+    border: 1px solid #0000004c;
+    border-radius: 0.5rem;
+    overflow: hidden; 
+    height: 100%;
+}
+.card img {
+    height: 200px;
+    display:  cover;
+}
+.card-body {
+    padding:1rem; /* Adjust as needed */
+
+}
+.row.g-3 {
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+}
+.col-lg-4, .col-md-6 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+.card .card-body{
+    position: relative;
+    background-color: antiquewhite;
+}
+.card .card-body .categ p{
+    color: rgb(25, 25, 25);
+}
+.card .card-body .categ svg{
+color: rgb(255, 0, 0);
+font-size: larger;
+padding: 10px;
+position: absolute;
+right: 20px;
+top: 10px;
+transition: 0.3s;
+}
+.card .card-body .title h5{
+    color: #f89d13;
+    margin-bottom: 1rem;
+    
+}
+.card .card-body .categ svg:hover{
+color: rgb(0, 0, 0);
+background-color: red;
+padding: 10px;
+border-radius:50% ;
+position: absolute;
+right: 20px;
+top: 10px;
+
+}
